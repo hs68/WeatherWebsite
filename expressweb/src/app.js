@@ -30,6 +30,6 @@ app.get("*",(req,res)=>{
     });
 });
 
-app.listen(8030,()=>{
+app.listen(port,()=>{
     //console.log("listening to port");
 });
